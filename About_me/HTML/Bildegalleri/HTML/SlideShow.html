@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <link rel="icon" href="../Media/icon.png">
+    <link rel="stylesheet" href="../CSS/Stilark.css">
+    <link rel="stylesheet" href="../CSS/Stilark_SlideShow.css">
+</head>
+<body>
+    <h1>Slideshow fra Venezia</h1>
+    <div class="slideshow-container">
+        <div class="mineSlides fade">
+            <div class="nummerTekst">1 / 4</div>
+                <img src="../Media/Venezia1.JPG" alt="Bilde fra Venezia" style="width:100%;">
+                <div class="bildeTekst">Torg i Venezia</div>
+        </div>
+        <div class="mineSlides fade">
+            <div class="nummerTekst">2 / 4</div>
+                <img src="../Media/Venezia2.JPG" alt="Bilde fra Venezia" style="width:100%;">
+                <div class="bildeTekst">Sukkenes bro i Venezia</div>
+        </div>
+        <div class="mineSlides fade">
+            <div class="nummerTekst">3 / 4</div>
+                <img src="../Media/Venezia3.JPG" alt="Bilde fra Venezia" style="width:100%;">
+                <div class="bildeTekst">Dogepalasset i Venezia</div>
+        </div>
+        <div class="mineSlides fade">
+            <div class="nummerTekst">4 / 4</div>
+                <img src="../Media/Venezia4.JPG" alt="Bilde fra Venezia" style="width:100%;">
+                <div class="bildeTekst">Typisk bymiljø i Venezia</div>
+        </div>
+
+        <a class="forrige" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="neste" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <br>
+
+    <div style="text-align: center;">
+        <span class="dott" onclick="currentSlide(1)"></span>
+        <span class="dott" onclick="currentSlide(2)"></span>
+        <span class="dott" onclick="currentSlide(3)"></span>
+        <span class="dott" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script src="../JavaScript/slideshow.js"></script>
+</body>
+</html>

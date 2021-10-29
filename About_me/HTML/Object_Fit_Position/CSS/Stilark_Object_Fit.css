@@ -1,0 +1,26 @@
+img {
+    width:200px;
+    height: 300px;
+    object-fit: cover;         /*Specifies how an <img> or <video> should be resized to fit its container*/
+    object-position: 33% 100%; /*Specifies how an <img> or <video> should be positioned with x/y coordinates inside its "own content box"*/
+    border-radius: 45%;
+    border: 5px solid #656565;
+    padding:3px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    filter:blur(4px);
+}
+  /* Cover beholder forholdet og klipper bildet så det er likt
+     Contain beholder folholdet uten å klippe noe av bildet
+     Fill fyller hele "boksen" til bildet og bryr seg ikke om forhold
+     None fyller boksen uten å bryte forholdet (samme som cover?)
+     Scale-down fyller hele boksen uten å klippe (samme som contain?)
+
+     Object-position viser hvor på bildet som skal klippes vekk om nødvendig, 
+     eller rettere sakt, hvor på bildet som skal være midtpunktet etter klippingen.*/
+     
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} 
+

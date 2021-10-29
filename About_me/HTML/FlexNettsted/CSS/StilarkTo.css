@@ -1,0 +1,110 @@
+.innpakning {
+    width:800px;
+    background-color: #404040;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; /*Bestemmer hvordan innholdet orienterer seg vannrett, dvs vi kan bryte rader*/
+}
+
+.topptekst {
+    flex-basis:100%; /*fyller bredden i innpakning helt*/
+    height:120px;
+    background-color: #909090;
+    padding: 5px;
+    margin:5px;
+    order:1;
+}
+
+.meny {
+    flex-basis:200px;
+    background-color: #329632;
+    padding:5px;
+    margin:5px;
+    order:2;
+}
+
+.innhold {
+    background-color: #909090;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    flex:1; /*Bruker tilgjengelig bredde*/
+    order:3;
+    padding:5px;
+    margin:5px;
+}
+
+.innhold2 {
+    background-color: #909090;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    flex:1;
+    order:4;
+    height:100%;
+}
+
+.innholdVenstre {
+    background-color: lightseagreen;
+    order:1;
+}
+
+.innholdSenter {
+    background-color: lightpink;
+    order:2;
+}
+
+.innholdHoyre {
+    background-color: lightcyan;
+    order:3;
+}
+
+.innholdHoyre, .innholdSenter, .innholdVenstre {
+    padding:5px;
+    margin:5px;
+    flex-basis:25%;
+    flex-grow:3;
+    width:100px;
+    height:100px;
+}
+
+.under {
+    display:flex;
+    background-color: #0df005;
+    flex-basis:100%;
+    order:5;
+    padding:5px;
+    margin:5px;
+    justify-content:space-evenly;
+}
+
+.bunntekst {
+    flex-basis:100%;
+    order:6;
+    background-color: #329632;
+    padding:5px;
+    margin:5px;
+}
+
+ul {
+    list-style-type: none; /*fjerner kulepunkter*/
+    margin: 0;
+    padding: 0;
+    margin-bottom:10px;
+}
+
+
+
+ul a {
+    padding: 10px 30px; /*marginen på boksene til teksten*/
+    color: #333333; /*fargen til teksten*/
+    font-weight: bold;
+    text-decoration: none; /*fjerner understrek*/
+    background-color: #0df005; /*farge til boks*/
+    display:block;
+    margin:5px;
+}
+ul a:hover {
+    background-color: #ebe584; /*farge når man har musen over*/
+}

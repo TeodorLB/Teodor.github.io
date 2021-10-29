@@ -1,0 +1,52 @@
+.container {
+   display:flex; 
+   flex-flow:row wrap;
+   justify-content: center;
+   background-color: lightblue;
+   padding:2%;
+   width:70%;
+   margin:auto;
+}
+
+.innhold {
+    background-color: orange;
+    flex-grow: 0.5;
+    order:1;
+}
+
+.innhold2 {
+    background-color: red;
+    flex-grow: 2;
+    order:2;
+    font-size:40px;
+    text-align:center;
+}
+
+.innhold3 {
+    background-color: lightgreen;
+    order:3;
+    flex-grow:0.5;
+}
+
+.innhold,.innhold2, .innhold3{
+    margin:0.5%;
+    height:180px;
+    padding:0.5%;
+    width:8%;
+}
+
+.header {
+    order:0;
+    width:98%;
+    background-color: green;
+    margin:0.5%;
+    padding:0.5%;
+}
+
+.footer {
+    order:4;
+    background-color: blueviolet;
+    margin:0.5%;
+    padding:0.5%;
+    width:98%;
+}

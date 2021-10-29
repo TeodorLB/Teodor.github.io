@@ -1,0 +1,78 @@
+h1 {
+    font-family: Helvetica,Arial,sans-serif;
+    margin-left: 10px;
+}
+body {
+     width:1200px;
+     margin:auto;
+
+}
+.venstre {
+    width:47%;
+    margin-top: 30px;
+    background-color: lightcyan;
+    margin-right:1%;
+}
+.hoyre {
+    width:47%;
+    margin-top: 30px;
+    background-color: lightgreen;
+    margin-left:1%;
+    margin-bottom:30px;
+}
+.hoyre,.venstre,.hoyretredel,.midtretredel,.venstretredel {
+    padding:1%;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size:20px;
+    float:left;
+}
+.venstretredel {
+    width:30%;
+    margin-top: 30px;
+    background-color: lightcyan;
+    margin-right:1%;
+    margin-bottom:20px;
+}
+.midtretredel {
+    width:30%;
+    margin-top: 30px;
+    background-color: lightgoldenrodyellow;
+    margin-right:1%;
+    margin-left: 1%;
+    margin-bottom:20px;
+}
+.hoyretredel {
+    width:30%;
+    margin-top: 30px;
+    background-color: lightgreen;
+    margin-left: 1%;
+    margin-bottom:20px;
+}
+.del3 {
+    width:1200px;
+    margin:auto;
+    margin-top:30px;
+}
+.overskrift {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size:75px;
+    background-color: lightblue;
+    width: 96%;
+    float:left;
+    padding:2%;
+
+}
+.bilde {
+    width:62%;
+    float:left;
+
+}
+.tekstside {
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: lightcoral;
+    width:34%;
+    float:right;
+    font-size:30px;
+    padding:2%;
+
+}
