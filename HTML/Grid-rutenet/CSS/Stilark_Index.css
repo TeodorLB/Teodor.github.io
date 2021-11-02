@@ -1,0 +1,15 @@
+section {
+    display: grid;
+    grid-template-columns: 200px 180px 250px;
+}
+
+article {
+    background-color: lightcyan;
+    border:1px solid gray;
+    padding:10px;
+}
+
+.ny {
+    display:grid;
+    grid-template-columns:250px 200px 180px;
+}
