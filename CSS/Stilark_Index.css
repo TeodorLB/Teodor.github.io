@@ -70,8 +70,6 @@ h1 {
     order: 5;
     width:auto;
     flex-grow:7;
-    margin:5px;
-    padding:5px;
 }
 
 .innholdVenstre {
@@ -80,7 +78,7 @@ h1 {
     /*flex-basis:50%;*/
     margin-bottom:0;
     /*flex-basis:425px;*/
-    width: 520px;
+    width: 450px;
     flex-grow:3;
 }
 
