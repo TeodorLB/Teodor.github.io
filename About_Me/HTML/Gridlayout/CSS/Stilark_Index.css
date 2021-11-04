@@ -1,0 +1,19 @@
+main {
+    max-width:800px;
+    min-height:400px;
+    display:grid;
+    grid-template-columns:200px 1fr;
+    color:white;
+}
+nav {
+    background-color: #3f4554;
+    list-style-type:none;
+}
+section {
+    background-color: #2c303c;
+    padding:30px;
+}
+h1 {
+    font-size: 69px;
+    margin-bottom:-10px;
+}
