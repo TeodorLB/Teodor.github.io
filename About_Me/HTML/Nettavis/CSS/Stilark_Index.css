@@ -1,6 +1,6 @@
 .nyheter {
     display: grid;
-    grid-template-columns: repeat(12, 1frx);
+    grid-template-columns: repeat(12, 1fr);
     max-width: 80rem;
     grid-auto-rows: minmax(12rem, auto);
     gap: 1rem;
@@ -19,7 +19,7 @@
     color:white;
     background: rgba(128,128,128,0.562);
 }
-.nyheter img{
+.nyheter img{ 
     position: absolute;
     left:0;
     right:0;
