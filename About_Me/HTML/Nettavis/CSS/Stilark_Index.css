@@ -1,8 +1,8 @@
 .nyheter {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    max-width: 80rem;
-    grid-auto-rows: minmax(12rem, auto);
+    max-width: 120rem;
+    grid-auto-rows: minmax(18rem, auto);
     gap: 1rem;
 }
 .nyheter a {
