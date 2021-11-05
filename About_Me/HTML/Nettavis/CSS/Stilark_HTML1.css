@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+article {
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color:white;
+    padding:0.25rem;
+    transition: 1s;
+    cursor: pointer;
+}
+span {
+    transition: 1s;
+}
+article:hover span {
+    transform: rotate(180deg) scale(2);
+}
